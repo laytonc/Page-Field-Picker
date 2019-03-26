@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{C2B16B70-DD26-4489-9FEB-B8CFC83F3691}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PageContent", "PageContent", "{E61CFD0C-08EF-4466-979D-48A318D23417}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SierraBadger.Feature.PageContent", "src\Feature\PageContent\code\SierraBadger.Feature.PageContent.csproj", "{D882F84B-B9F9-48CA-85A6-25A0294C52DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D882F84B-B9F9-48CA-85A6-25A0294C52DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D882F84B-B9F9-48CA-85A6-25A0294C52DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D882F84B-B9F9-48CA-85A6-25A0294C52DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D882F84B-B9F9-48CA-85A6-25A0294C52DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E61CFD0C-08EF-4466-979D-48A318D23417} = {C2B16B70-DD26-4489-9FEB-B8CFC83F3691}
+		{D882F84B-B9F9-48CA-85A6-25A0294C52DD} = {E61CFD0C-08EF-4466-979D-48A318D23417}
+	EndGlobalSection
+EndGlobal
