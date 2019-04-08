@@ -1,0 +1,21 @@
+﻿@using Sitecore.Mvc
+@model SierraBadger.Feature.PageContent.Models.PageFieldPickerRendering
+
+@if (Model.Initialized)
+{
+    var openingTag = string.Format("<{0}>", Model.Markup);
+    var closingTag = string.Format("</{0}>", Model.Markup);
+
+    @Html.Raw(@openingTag)
+    @Html.Sitecore().Field(Model.PageField,Model.PageItem)
+    @Html.Raw(@closingTag)
+}
+else
+{
+    if (Sitecore.Context.PageMode.IsExperienceEditor)
+    {
+        <div class="alert alert-warning">
+            <strong>Warning:</strong> Please configure this component via Rendering Parameters
+        </div>
+    }
+}
